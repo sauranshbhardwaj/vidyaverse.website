@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/index.594a6ec9.css">
+  </head>
+  <body>
+    <div
+      class=" w-full bg-cover sm:aspect-video sm:h-auto"
+      style="background-image: url('/assets/bg.9cc73b9f.png')"
+    >
+      <div class="mb-8 flex h-20 flex-row justify-between p-5" style="padding-right: 30px; padding-top: 40px">
+        <a href="/"><img src="/assets/logo_white.71a3adc1.png" alt="vidyaverse logo" class="h-20" style="padding-left: 40px; position: relative; bottom:22px"/></a>
+        <div class="hidden text-white sm:flex sm:flex-row" style="padding-top:10px">
+          <a href="/" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Home</p></a
+          >
+          <a href="/intro-to-web3.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Introduction to Web3</p></a
+          >
+          <a href="/campus-ambassador.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Become an Explorer!</p></a
+          >
+          <a href="/web-3-book.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:40px">Web3 Book</p></a
+          >
+          <a href="#" class="flex flex-col justify-center" >
+            <img src="/assets/signup.40e74ad3.png" alt="signup" class="h-10 w-10"
+          /></a>
+        </div>
+        <div class="h-6 w-6 text-white sm:hidden">
+          <button
+            onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <div
+            class="w-content h-content fixed right-2 hidden rounded-lg bg-stone-800 p-2 backdrop-blur"
+            style="--tw-bg-opacity: 0.3; "
+            id="mobile-menu"
+          >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Home</p></a
+            ><a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Introduction to Web3
+              </p></a
+            >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Become an Explorer!
+              </p></a
+            >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Signup</p></a
+            >
+          </div>
+        </div>
+      </div>
+      <p
+        class="mt-10 w-full text-center text-3xl font-bold text-white sm:text-5xl" style ="position:relative;top:40px;font-size:300%"
+      >
+        Reach out to Us
+      </p>
+      <div class="mt-10 flex w-full flex-col items-center justify-center" style="height:700px">
+        <form class="flex flex-col items-center justify-center" action="https://send.pageclip.co/gFp7l8x5XGEVB5wlDs0yegOHA7gm9MXd"  method="POST" >
+          <label class="block">
+            <span class="text-white">Full name</span>
+            <input
+              type="text"
+              name="name"
+              required
+              class="mt-1 block w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              placeholder=""
+            />
+          </label>
+          <label class="mt-4 block">
+            <span class="text-white">Email address</span>
+            <input
+              type="email"
+              name="email"
+              required
+              class="mt-1 block w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              placeholder="john@example.com"
+            />
+          </label>
+          <label class="mt-4 block">
+            <span class="text-white">Phone Number</span>
+            <input
+              type="tel"
+              name="phone"
+              required
+              class="mt-1 block w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              placeholder="+91 99999 99999"
+            />
+          </label>
+          <label class="mt-4 block">
+            <span class="text-white">Message</span>
+            <textarea
+              name="message"
+              required
+              class="mt-1 block w-96 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              rows="3"
+            ></textarea>
+          </label>
+          <button
+            class="mt-10 mb-8 h-10 w-fit rounded-xl bg-white px-10 py-2"
+            type="submit"
+            id="submit"
+          >
+            Submit
+          </button>
+          <!-- TODO: Add display: flex to the below element to show the form submitted successfully -->
+          <div
+            id="toast-simple"
+            class="space-x hidden w-full max-w-xs items-center space-x-4 divide-x divide-gray-200 rounded-lg bg-white p-4 text-gray-500 shadow dark:divide-gray-700 dark:bg-gray-800 dark:text-gray-400"
+            role="alert"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-5 w-5 text-blue-600 dark:text-blue-500"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="paper-plane"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z"
+              ></path>
+            </svg>
+            <div class="pl-4 text-base font-normal">
+              Message sent successfully!
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="flex flex-col justify-between p-8 sm:flex-row">
+      <div class="flex flex-col" style="padding-left:20px">
+        <a href="/"><img 
+          src="/assets/logo_color.c82d3c70.png"
+          alt="vidyaverse logo"
+          class="mb-4 h-auto w-44" 
+        /></a>
+        <p class="w-full text-base sm:w-72">
+          VidyaVerse is a one-stop platform for teenagers to explore their
+          passions, learn skills while in school, and become industry ready
+          today. Start your journey today!
+        </p>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px">Company</p>
+        <a href="/about-us.html" class="font-medium underline" style="padding-top:20px">About Us</a>
+        <a href="/contact-us.html" class="font-medium underline" style="padding-top:10px">Contact Us</a>
+        <a href="/campus-ambassador.html" class="font-medium underline" style="padding-top:10px">Campus Ambassador Program</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px">Our Programs</p>
+        <a href="/intro-to-web3.html" class="font-medium underline" style="padding-top:20px">Introduction to Web3</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px;padding-bottom:10px">Our Socials</p>
+        <div class="flex" style="padding-right:20px">
+          <a href="https://www.instagram.com/vidya.verse/" target="_blank" class="mr-2 h-auto w-8"
+            ><i class="fa fa-instagram" style="font-size:36px"></i></a
+          ><a href="https://www.youtube.com/channel/UCFJsVPXeTC5wA9a-53hBg4g" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-youtube-play" style="font-size:36px"></i></a>
+          <a href="https://www.linkedin.com/company/vidyaverse/" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+          <a href="https://twitter.com/VidyaVerse" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("submit").addEventListener("click",()=>{
+        document.getElementById("toast-simple").classList.remove("hidden")
+        document.getElementById("toast-simple").classList.add("flex")
+      })
+    </script>
+  </body>
+</html>

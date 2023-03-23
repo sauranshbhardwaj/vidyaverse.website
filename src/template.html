@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="h-screen w-full bg-cover sm:aspect-video sm:h-auto"
+      style="background-image: url('./assets/bg.png')"
+    >
+      <div class="flex h-20 flex-row justify-between p-5">
+        <img src="assets/logo_white.png" alt="vidyaverse logo" class="h-10" />
+        <div class="hidden text-white sm:flex sm:flex-row">
+          <a href="#" class="flex flex-col justify-center">
+            <p class="px-2 text-sm font-semibold">Home</p></a
+          >
+          <a href="#" class="flex flex-col justify-center">
+            <p class="px-2 text-sm font-semibold">Introduction to Web3</p></a
+          >
+          <a href="#" class="flex flex-col justify-center">
+            <p class="px-2 text-sm font-semibold">Become an Explorer!</p></a
+          >
+          <a href="#" class="flex flex-col justify-center">
+            <img src="./assets/signup.png" alt="signup" class="h-6 w-6"
+          /></a>
+        </div>
+        <div class="h-6 w-6 text-white sm:hidden">
+          <button
+            onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <div
+            class="w-content h-content fixed right-2 hidden rounded-lg bg-stone-800 p-2 backdrop-blur"
+            style="--tw-bg-opacity: 0.3"
+            id="mobile-menu"
+          >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Home</p></a
+            ><a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Introduction to Web3
+              </p></a
+            >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Become an Explorer!
+              </p></a
+            >
+            <a href="#" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Signup</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="flex flex-col justify-between p-8 sm:flex-row">
+      <div class="flex flex-col">
+        <img
+          src="./assets/logo_color.png"
+          alt="vidyaverse logo"
+          class="mb-4 h-auto w-44"
+        />
+        <p class="w-full text-base sm:w-52">
+          VidyaVerse is a one-stop platform for teenagers to explore their
+          passions, learn skills while in school, and become industry ready
+          today. Start your journey today!
+        </p>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0">Company</p>
+        <a href="#" class="font-medium underline">About Us</a>
+        <a href="#" class="font-medium underline">Contact Us</a>
+        <a href="#" class="font-medium underline">Campus Ambassador Program</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0">Our Programs</p>
+        <a href="#" class="font-medium underline">Introduction to Web3</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0">Our Socials</p>
+        <div class="flex">
+          <a href="#" class="mr-2 h-auto w-8"
+            ><img src="./assets/Instagram.png" alt="Instagram" /></a
+          ><a href="#" class="mx-2 h-auto w-8"
+            ><img src="./assets/YouTube.png" alt="YouTube"
+          /></a>
+          <a href="#" class="mx-2 h-auto w-8"
+            ><img src="./assets/LinkedIn.png" alt="LinkedIn"
+          /></a>
+          <a href="#" class="mx-2 h-auto w-8"
+            ><img src="./assets/Twitter.png" alt="Twitter"
+          /></a>
+          <a href="#" class="ml-2 h-auto w-8"
+            ><img src="./assets/Facebook.png" alt="Facebook"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

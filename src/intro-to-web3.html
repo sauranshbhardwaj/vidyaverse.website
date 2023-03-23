@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Intro to Web3 | VidyaVerse</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  </head>
+  <body>
+    <div
+      class="h-fit w-full bg-cover sm:h-auto"
+      style="background-image: url('./assets/bg.png')"
+    >
+      <div class="mb-8 flex h-20 flex-row justify-between p-5" style="padding-right: 30px; padding-top: 40px">
+        <a href="/"><img src="assets/logo_white.png" alt="vidyaverse logo" class="h-20" style="padding-left: 40px; position: relative; bottom:22px"/></a>
+        <div class="hidden text-white sm:flex sm:flex-row" style="padding-top:10px">
+          <a href="/" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Home</p></a
+          >
+          <a href="/intro-to-web3.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Introduction to Web3</p></a
+          >
+          <a href="/campus-ambassador.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:15px">Become an Explorer!</p></a
+          >
+          <a href="/web-3-book.html" class="flex flex-col justify-center">
+            <p class="px-2 text-lg font-semibold" style="padding-right:40px">Web3 Book</p></a
+          >
+          <a href="https://academy.vidyaverse.in/account/login" class="flex flex-col justify-center" >
+            <img src="./assets/signup.png" alt="signup" class="h-10 w-10"
+          /></a>
+        </div>
+        <div class="h-6 w-6 text-white sm:hidden">
+          <button
+            onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-6 w-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <div
+            class="w-content h-content fixed right-2 hidden rounded-lg bg-stone-800 p-2 backdrop-blur"
+            style="--tw-bg-opacity: 0.3; "
+            id="mobile-menu"
+          >
+            <a href="https://vidyaverse.in/" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Home</p></a
+            ><a href="https://vidyaverse.in/intro-to-web3.html" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Introduction to Web3
+              </p></a
+            >
+            <a href="https://vidyaverse.in/campus-ambassador.html" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Become an Explorer!
+              </p></a
+            >
+            <a href="https://vidyaverse.in/web-3-book.html" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">
+                Web3 Book
+              </p></a
+            >
+            <a href="https://academy.vidyaverse.in/account/signup?returnUrl=" class="flex flex-col justify-center">
+              <p class="px-2 py-4 text-sm font-semibold">Login/Signup</p></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between sm:flex-row">
+        <div>
+          <p class="ml-16 text-4xl font-bold text-white sm:text-8xl">
+            Introduction<br/> to Web3
+          </p>
+          <p class="ml-16 mt-8 mb-8 text-base font-bold text-white sm:text-4xl">
+            Your Way into the Future
+          </p>
+          <div class="flex flex-row">
+            <div class="flex flex-col">
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                40 Min+ Video Content
+              </div>
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                Exclusive NFTs
+              </div>
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                Beginner Friendly
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                Exclusive Web3 Book
+              </div>
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                Live Doubt Sessions
+              </div>
+              <div class="ml-16 mt-4 flex items-center font-medium text-white">
+                <img src="./assets/check.png" alt="check" class="h-8 w-8" />
+                <div class="w-4"></div>
+                Certificate and Internship Opportunity
+              </div>
+            </div>
+          </div>
+          <button onclick= "location.href= 'https://academy.vidyaverse.in/account/expresscheckout?course=484c8a09-7bad-44b8-9fbc-7f0d902e7c7a'"
+            class="mt-8 ml-16 mb-8 h-10 w-fit rounded-xl bg-white px-4 py-2 sm:mb-4 sm:mt-10"
+          >
+            Enroll Now
+          </a>
+        </div>
+        <img
+          src="./assets/section2.png"
+          class="block h-[30rem] object-contain sm:hidden md:hidden lg:block"
+        />
+      </div>
+      <p class="mt-4 mb-8 w-full text-center text-3xl font-bold text-white">
+        Unlock All the Perks with the Learner's Delight!
+      </p>
+      <br />
+    </div>
+    <div class="w-full bg-[#fff9f6] p-16 text-left">
+      <p class="mb-5 text-5xl font-semibold mt-8">
+        Introduction to Web3 in a Nutshell
+      </p>
+      <p class="text-xl font-semibold mb-8">
+        Explore the emerging tech concepts and dive deeper into the world of the
+        metaverse.
+      </p>
+      <div
+        class="mt-8 flex w-full flex-col items-center justify-between lg:flex-row"
+      >
+        <img src="./assets/web3.png" alt="web3" class="h-96"/>
+        <video
+          src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/0.mp4?alt=media&token=1409f1dd-ecba-4239-ba74-1a5681790c4a"
+          controls
+          class="mt-8 aspect-video h-96 w-auto rounded-md"
+        ></video>
+      </div>
+    </div>
+    <div class="w-full bg-white p-10 text-left">
+      <p class="mb-5 text-5xl font-semibold mt-5">What all you'll be learning?</p>
+      <p class="text-lg font-semibold mb-5">
+        Learn through videos, demos, readables, and start your journey!
+      </p>
+
+      <div id="accordion-collapse" data-accordion="collapse" class="mt-8">
+        <h2 id="accordion-collapse-heading-1">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between rounded-t-xl border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-1"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-1"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              The Past, Present, and Future of Web
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                4 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                4 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-1"
+          aria-labelledby="accordion-collapse-heading-1"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  What is Web1 and Web2?
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  What is Web3?
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Why is this an opportunity for us and<br />
+                  Why is it important for us to understand?
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  What is currently happening in the web 3 space?
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/1.mp4?alt=media&token=5c6d16cc-53e5-4e14-9fe2-53715478be49"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-2">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-2"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-2"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Blockchain
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                5 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                5 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-2"
+          aria-labelledby="accordion-collapse-heading-2"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  What is Blockchain?
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Uses and Application
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Nonces and Hashes Terminologies I
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Nonces and Hashes Terminologies II
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Difference between Soft and Hard Fork
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/2.mp4?alt=media&token=3b978dde-c847-44be-9097-6f1432b2679f"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-3">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-3"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-3"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Working with Blockchain
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                3 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                3 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-3"
+          aria-labelledby="accordion-collapse-heading-3"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Demo of Peer to Peer Blockchain
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Token based Blockchain Demo
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  How does one work with a Blockchain?
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/3.mp4?alt=media&token=fbc6692e-696a-4c79-af62-25af0b2254e6"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-4">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-4"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-4"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Frameworks
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-4"
+          aria-labelledby="accordion-collapse-heading-4"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Definitions of Frameworks
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Uses of framework in Web3 and examples
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/4.mp4?alt=media&token=4f7c74ad-b46a-4950-bce0-5c25dee22267"
+controls              
+class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-5">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-5"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-5"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Smart Contracts
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-5"
+          aria-labelledby="accordion-collapse-heading-5"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  What are smart contracts?<br />
+                  And a breakdown of a basic solidity contract
+                </h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Applications of smart contracts?<br />
+                  How do smart contracts make ethereum special?
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/5.mp4?alt=media&token=ad02976d-bf02-4338-88b8-a50aac45c788"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-6">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-6"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-6"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Tokens and Coins
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                1 Video
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                1 Readable
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-6"
+          aria-labelledby="accordion-collapse-heading-6"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Difference between Tokens and Coins
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/6.mp4?alt=media&token=c8bed680-34f4-49f2-95a7-77cb3308c1d6"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-7">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-b-0 border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-7"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-7"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Ethereum and Bitcoin
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                3 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                3 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-7"
+          aria-labelledby="accordion-collapse-heading-7"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-b-0 border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">Ethereum</h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">Bitcoin</h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">
+                  Ethereum VS Bitcoin
+                </h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/7.mp4?alt=media&token=80d23406-9a83-415f-90d9-d3c0c47e0e1b"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+        <h2 id="accordion-collapse-heading-8">
+          <button
+            type="button"
+            class="flex w-full items-center justify-between border border-gray-200 bg-gray-100 p-5 text-left font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-800 dark:focus:ring-gray-800"
+            data-accordion-target="#accordion-collapse-body-8"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-8"
+          >
+            <div
+              class="flex w-full flex-col items-center justify-between sm:flex-row"
+            >
+              Crypto Projects to look out for
+              <div class="flex">
+                <img src="./assets/play.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Videos
+                <img src="./assets/document.png" class="ml-2 mr-2 h-5 w-5" />
+                2 Readables
+              </div>
+            </div>
+            <svg
+              data-accordion-icon=""
+              class="h-6 w-6 shrink-0 rotate-180"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </h2>
+        <div
+          id="accordion-collapse-body-8"
+          aria-labelledby="accordion-collapse-heading-8"
+        >
+          <div
+            class="flex w-full flex-col items-center justify-between border border-gray-200 p-5 font-light lg:flex-row"
+          >
+            <ol class="relative border-l border-[#FF8515]">
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">SushiSwap</h3>
+              </li>
+              <li class="mb-10 ml-4">
+                <div
+                  class="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-[#FF8515]"
+                ></div>
+
+                <h3 class="text-lg font-semibold text-gray-900">MetaMask</h3>
+              </li>
+            </ol>
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/vidyaverse-cc209.appspot.com/o/8.mp4?alt=media&token=4ca2ba49-d0a4-416f-92d6-019f504a3623"
+              controls
+              class="mt-8 aspect-video h-72 w-auto rounded-md"
+            ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex w-full flex-col bg-[#fff9f6] p-10">
+      <p class="mb-5 text-3xl font-semibold sm:text-5xl mt-5">
+        We made Web3 even more affordable than a Pizza!
+      </p>
+      <p class="mb-12 text-2xl font-semibold sm:text-3xl">
+        Course Bundle Includes:
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-between">
+      <div class="flex flex-col justify-center ml-8">
+      <div class="flex items-center text-xl sm:text-3xl font-bold">
+        <img src="./assets/check2.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Intro to Web3 Complete Course
+      </div>
+      <div class="flex items-center text-xl sm:text-3xl font-bold">
+        <img src="./assets/check2.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Exclusive Access to Discord Community
+      </div>
+      <div class="flex items-center text-xl sm:text-3xl font-bold">
+        <img src="./assets/check2.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        2 Live Doubt Sessions with Course Mentor
+      </div>
+      
+      </div>
+      <img src="./assets/299.png" class="h-72 w-72 mr-0 sm:mr-80 mt-8"/></div>
+      <div class="flex flex-col w-full items-center">
+      <div class="flex items-center text-3xl font-bold">
+        <img src="./assets/disc60.png" alt="discount 60%" class="h-32 w-32" />
+        <p>At just ₹199 (inc. of all taxes) <s>₹999</s></p>
+      </div>
+      <a href="https://academy.vidyaverse.in/account/signup?returnUrl=/user/account/cart?course=a65970b8-5755-4d91-b76a-39b1e4f59918"
+        class="mb-5 h-10 w-fit rounded-xl bg-[#FF8515] px-4 py-2 sm:mb-4"
+      >
+        Enroll Now
+      </a>
+      </div>
+    </div>
+    <div class="flex w-full flex-col bg-white p-10">
+      <p class="mb-16 mt-8 w-full text-left text-3xl font-semibold sm:text-5xl">
+        Learner's Delight has so much more to offer!
+      </p>
+      <div class="flex flex-col md:flex-row w-full justify-between">
+      <div class="flex flex-col justify-center ml-8">
+
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        All Perks from Course Bundle
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Exclusive Web3 Book + Free Home Delivery
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Exclusive NFTs on Course Completion
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        10 Live Doubt Sessions
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Job Shadowing Opportunities
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        30% Discount on All Upcoming Courses
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        20% Discount on VidyaVerse Merchandise
+      </div>
+      <div class="flex items-center text-2xl font-bold mt-4">
+        <img src="./assets/check3.png" alt="check" class="h-10 w-10" />
+        <div class="w-4"></div>
+        Networking Opportunities & Virtual Hackathons
+      </div>
+      </div>
+<img src="./assets/799.png" class="h-96 w-96 mr-64 mt-8"/></div>
+<div class="w-full flex items-center flex-col mt-8">
+      <div class="flex items-center text-3xl font-bold">
+        <img src="./assets/disc70.png" alt="discount 60%" class="h-32 w-32" />
+        <p>At just ₹499 (inc. of all taxes) <s>₹2999</s></p>
+      </div>
+      <a href="https://academy.vidyaverse.in/account/expresscheckout?course=484c8a09-7bad-44b8-9fbc-7f0d902e7c7a"
+        class="mb-5 h-10 w-fit rounded-xl bg-[#FF8515] px-4 py-2 sm:mb-4"
+      >
+        Enroll Now
+      </a>
+      </div>
+    </div>
+    <!--
+    <div
+      class="flex w-full flex-col items-center bg-[#fff9f6] py-10 text-center"
+    >
+      <p class="mb-4 text-6xl font-bold">Our Students' Thoughts</p>
+      <p class="text-base font-semibold">
+        Listen from the students who have already experienced “Introduction to
+        Web3” and are proud explorers of VidyaVerse!
+      </p>
+      <div class="mt-8 flex flex-row flex-wrap items-center justify-center">
+        <img src="./assets/placeholder.png" alt="placeholder" class="m-4" />
+        <img src="./assets/placeholder.png" alt="placeholder" class="m-4" />
+        <img src="./assets/placeholder.png" alt="placeholder" class="m-4" />
+        <img src="./assets/placeholder.png" alt="placeholder" class="m-4" />
+      </div>
+    </div>-->
+    <footer class="flex flex-col justify-between p-8 sm:flex-row">
+      <div class="flex flex-col" style="padding-left:20px">
+        <a href="/"><img 
+          src="./assets/logo_color.png"
+          alt="vidyaverse logo"
+          class="mb-4 h-auto w-44" 
+        /></a>
+        <p class="w-full text-base sm:w-72">
+          VidyaVerse is a one-stop platform for teenagers to explore their
+          passions, learn skills while in school, and become industry ready
+          today. Start your journey today!
+        </p>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px">Company</p>
+        <a href="/about-us.html" class="font-medium underline" style="padding-top:20px">About Us</a>
+        <a href="/contact-us.html" class="font-medium underline" style="padding-top:10px">Contact Us</a>
+        <a href="/campus-ambassador.html" class="font-medium underline" style="padding-top:10px">Campus Ambassador Program</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px">Our Programs</p>
+        <a href="/intro-to-web3.html" class="font-medium underline" style="padding-top:20px">Introduction to Web3</a>
+      </div>
+      <div class="flex flex-col">
+        <p class="mt-8 mb-4 text-base font-bold sm:mt-0" style="position:relative;top:17px;padding-bottom:10px">Our Socials</p>
+        <div class="flex" style="padding-right:20px">
+          <a href="https://www.instagram.com/vidya.verse/" target="_blank" class="mr-2 h-auto w-8"
+            ><i class="fa fa-instagram" style="font-size:36px"></i></a
+          ><a href="https://www.youtube.com/channel/UCFJsVPXeTC5wA9a-53hBg4g" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-youtube-play" style="font-size:36px"></i></a>
+          <a href="https://www.linkedin.com/company/vidyaverse/" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+          <a href="https://twitter.com/VidyaVerse" target="_blank" class="mx-2 h-auto w-8"
+            ><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  </body>
+</html>
